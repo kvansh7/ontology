@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "title": "Technology Domain Transfer Matrix",
+    "version": "1.0.0",
+    "generated_at": "2025-08-18T13:45:00Z",
+    "description": "Quantifies knowledge transferability between technology domains for vendor-problem statement matching",
+    "scoring_scale": "0.0 (no transfer) to 1.0 (perfect transfer)",
+    "methodology": "Based on shared skills, tools, concepts, and industry applications"
+  },
+  "domain_mappings": {
+    "Software Development": "SD",
+    "Data & Artificial Intelligence": "AI",
+    "Cloud Computing": "CC",
+    "Cybersecurity": "CS",
+    "Networking & Telecommunications": "NT",
+    "Systems & Hardware": "SH",
+    "Electronics & Semiconductors": "ES",
+    "Emerging Technologies": "ET"
+  },
+  "transfer_matrix": {
+    "SD": {
+      "SD": 1.0,
+      "AI": 0.8,
+      "CC": 0.9,
+      "CS": 0.7,
+      "NT": 0.6,
+      "SH": 0.7,
+      "ES": 0.5,
+      "ET": 0.7
+    },
+    "AI": {
+      "SD": 0.8,
+      "AI": 1.0,
+      "CC": 0.8,
+      "CS": 0.6,
+      "NT": 0.5,
+      "SH": 0.7,
+      "ES": 0.6,
+      "ET": 0.9
+    },
+    "CC": {
+      "SD": 0.9,
+      "AI": 0.8,
+      "CC": 1.0,
+      "CS": 0.8,
+      "NT": 0.7,
+      "SH": 0.8,
+      "ES": 0.4,
+      "ET": 0.7
+    },
+    "CS": {
+      "SD": 0.7,
+      "AI": 0.6,
+      "CC": 0.8,
+      "CS": 1.0,
+      "NT": 0.8,
+      "SH": 0.6,
+      "ES": 0.5,
+      "ET": 0.6
+    },
+    "NT": {
+      "SD": 0.6,
+      "AI": 0.5,
+      "CC": 0.7,
+      "CS": 0.8,
+      "NT": 1.0,
+      "SH": 0.7,
+      "ES": 0.8,
+      "ET": 0.6
+    },
+    "SH": {
+      "SD": 0.7,
+      "AI": 0.7,
+      "CC": 0.8,
+      "CS": 0.6,
+      "NT": 0.7,
+      "SH": 1.0,
+      "ES": 0.8,
+      "ET": 0.7
+    },
+    "ES": {
+      "SD": 0.5,
+      "AI": 0.6,
+      "CC": 0.4,
+      "CS": 0.5,
+      "NT": 0.8,
+      "SH": 0.8,
+      "ES": 1.0,
+      "ET": 0.6
+    },
+    "ET": {
+      "SD": 0.7,
+      "AI": 0.9,
+      "CC": 0.7,
+      "CS": 0.6,
+      "NT": 0.6,
+      "SH": 0.7,
+      "ES": 0.6,
+      "ET": 1.0
+    }
+  },
+  "subdomain_transfer_matrix": {
+    "programming_languages": {
+      "programming_languages": 1.0,
+      "software_engineering": 0.9,
+      "application_development": 0.9,
+      "web_development": 0.8,
+      "mobile_development": 0.8,
+      "game_development": 0.7,
+      "devops": 0.7,
+      "apis_and_integration": 0.8,
+      "testing_and_quality_assurance": 0.7,
+      "data_science": 0.6,
+      "machine_learning": 0.7,
+      "deep_learning": 0.7,
+      "natural_language_processing": 0.6,
+      "computer_vision": 0.6,
+      "reinforcement_learning": 0.6,
+      "data_engineering": 0.7,
+      "big_data": 0.6,
+      "data_visualization": 0.5,
+      "generative_ai": 0.6,
+      "mlops": 0.7,
+      "operating_systems": 0.8,
+      "embedded_systems": 0.7,
+      "chip_design": 0.6,
+      "robotics": 0.6,
+      "ar_vr_and_metaverse": 0.7
+    },
+    "software_engineering": {
+      "programming_languages": 0.9,
+      "software_engineering": 1.0,
+      "application_development": 0.9,
+      "web_development": 0.8,
+      "mobile_development": 0.8,
+      "game_development": 0.7,
+      "devops": 0.9,
+      "apis_and_integration": 0.8,
+      "testing_and_quality_assurance": 0.9,
+      "mlops": 0.8,
+      "cloud_security": 0.7,
+      "operating_systems": 0.7,
+      "virtualization_and_containers": 0.8,
+      "autonomous_systems": 0.6,
+      "robotics": 0.6
+    },
+    "data_science": {
+      "data_science": 1.0,
+      "machine_learning": 0.9,
+      "deep_learning": 0.7,
+      "natural_language_processing": 0.6,
+      "computer_vision": 0.6,
+      "reinforcement_learning": 0.6,
+      "data_engineering": 0.8,
+      "big_data": 0.8,
+      "data_visualization": 0.9,
+      "generative_ai": 0.6,
+      "mlops": 0.7,
+      "programming_languages": 0.6,
+      "high_performance_computing": 0.6,
+      "quantum_computing": 0.5
+    },
+    "machine_learning": {
+      "data_science": 0.9,
+      "machine_learning": 1.0,
+      "deep_learning": 0.8,
+      "natural_language_processing": 0.7,
+      "computer_vision": 0.7,
+      "reinforcement_learning": 0.7,
+      "data_engineering": 0.7,
+      "big_data": 0.6,
+      "generative_ai": 0.8,
+      "mlops": 0.9,
+      "programming_languages": 0.7,
+      "high_performance_computing": 0.6,
+      "autonomous_systems": 0.8,
+      "robotics": 0.7,
+      "brain_computer_interfaces": 0.6
+    },
+    "deep_learning": {
+      "machine_learning": 0.8,
+      "deep_learning": 1.0,
+      "natural_language_processing": 0.9,
+      "computer_vision": 0.9,
+      "reinforcement_learning": 0.8,
+      "generative_ai": 0.9,
+      "mlops": 0.8,
+      "programming_languages": 0.7,
+      "high_performance_computing": 0.7,
+      "autonomous_systems": 0.8,
+      "robotics": 0.7,
+      "brain_computer_interfaces": 0.7,
+      "chip_design": 0.5,
+      "ar_vr_and_metaverse": 0.6
+    },
+    "natural_language_processing": {
+      "machine_learning": 0.7,
+      "deep_learning": 0.9,
+      "natural_language_processing": 1.0,
+      "computer_vision": 0.5,
+      "generative_ai": 0.9,
+      "data_science": 0.6,
+      "programming_languages": 0.6,
+      "human_computer_interaction": 0.8,
+      "brain_computer_interfaces": 0.6
+    },
+    "computer_vision": {
+      "machine_learning": 0.7,
+      "deep_learning": 0.9,
+      "computer_vision": 1.0,
+      "natural_language_processing": 0.5,
+      "generative_ai": 0.8,
+      "data_science": 0.6,
+      "programming_languages": 0.6,
+      "autonomous_systems": 0.9,
+      "robotics": 0.9,
+      "ar_vr_and_metaverse": 0.8,
+      "semiconductor_manufacturing": 0.5,
+      "vlsi_design": 0.4
+    },
+    "cloud_security": {
+      "cybersecurity": 0.9,
+      "cloud_computing": 0.9,
+      "network_security": 0.8,
+      "identity_and_access_management": 0.8,
+      "devops": 0.7,
+      "networking_protocols": 0.6,
+      "software_engineering": 0.6
+    },
+    "network_security": {
+      "cloud_security": 0.8,
+      "cybersecurity": 0.9,
+      "networking_protocols": 0.9,
+      "5g_and_telecom": 0.7,
+      "iot_networking": 0.7,
+      "zero_trust_security": 0.8
+    },
+    "5g_and_telecom": {
+      "networking_protocols": 0.8,
+      "iot_networking": 0.8,
+      "edge_computing": 0.7,
+      "network_security": 0.6,
+      "satellite_communication": 0.7,
+      "wireless_networking": 0.8,
+      "optical_networking": 0.6,
+      "electronics_and_semiconductors": 0.6
+    },
+    "iot_networking": {
+      "5g_and_telecom": 0.8,
+      "edge_computing": 0.8,
+      "embedded_systems": 0.9,
+      "wireless_networking": 0.8,
+      "network_security": 0.6,
+      "autonomous_systems": 0.7,
+      "robotics": 0.6
+    },
+    "edge_computing": {
+      "iot_networking": 0.8,
+      "cloud_computing": 0.8,
+      "embedded_systems": 0.7,
+      "5g_and_telecom": 0.7,
+      "machine_learning": 0.7,
+      "computer_vision": 0.7,
+      "autonomous_systems": 0.8,
+      "ar_vr_and_metaverse": 0.6
+    },
+    "operating_systems": {
+      "embedded_systems": 0.9,
+      "virtualization_and_containers": 0.8,
+      "high_performance_computing": 0.7,
+      "cybersecurity": 0.6,
+      "programming_languages": 0.8,
+      "devops": 0.7,
+      "cloud_computing": 0.7
+    },
+    "embedded_systems": {
+      "operating_systems": 0.9,
+      "iot_networking": 0.9,
+      "chip_design": 0.7,
+      "microprocessors": 0.8,
+      "electronics_and_semiconductors": 0.8,
+      "autonomous_systems": 0.8,
+      "robotics": 0.8,
+      "programming_languages": 0.7
+    },
+    "high_performance_computing": {
+      "operating_systems": 0.7,
+      "machine_learning": 0.7,
+      "deep_learning": 0.8,
+      "big_data": 0.8,
+      "data_engineering": 0.7,
+      "quantum_computing": 0.7,
+      "programming_languages": 0.6,
+      "chip_design": 0.5
+    },
+    "quantum_computing": {
+      "high_performance_computing": 0.7,
+      "machine_learning": 0.6,
+      "cryptography": 0.8,
+      "chip_design": 0.6,
+      "programming_languages": 0.5,
+      "nanotechnology_in_electronics": 0.6
+    },
+    "chip_design": {
+      "microprocessors": 0.9,
+      "system_on_chip": 0.9,
+      "vlsi_design": 0.9,
+      "fpga_and_asic": 0.8,
+      "embedded_systems": 0.7,
+      "electronics_and_semiconductors": 0.9,
+      "semiconductor_manufacturing": 0.7,
+      "high_performance_computing": 0.5,
+      "programming_languages": 0.6
+    },
+    "semiconductor_manufacturing": {
+      "chip_design": 0.7,
+      "vlsi_design": 0.8,
+      "nanotechnology_in_electronics": 0.9,
+      "microprocessors": 0.6,
+      "system_on_chip": 0.6,
+      "electronics_and_semiconductors": 0.9
+    },
+    "microprocessors": {
+      "chip_design": 0.9,
+      "system_on_chip": 0.8,
+      "embedded_systems": 0.8,
+      "operating_systems": 0.6,
+      "high_performance_computing": 0.6,
+      "vlsi_design": 0.7
+    },
+    "ar_vr_and_metaverse": {
+      "game_development": 0.9,
+      "computer_vision": 0.8,
+      "human_computer_interaction": 0.8,
+      "web_development": 0.6,
+      "mobile_development": 0.7,
+      "programming_languages": 0.7,
+      "robotics": 0.6,
+      "emerging_technologies": 0.8
+    },
+    "autonomous_systems": {
+      "machine_learning": 0.8,
+      "computer_vision": 0.9,
+      "robotics": 0.9,
+      "embedded_systems": 0.8,
+      "iot_networking": 0.7,
+      "edge_computing": 0.8,
+      "programming_languages": 0.7,
+      "cybersecurity": 0.6
+    },
+    "robotics": {
+      "autonomous_systems": 0.9,
+      "computer_vision": 0.9,
+      "machine_learning": 0.7,
+      "embedded_systems": 0.8,
+      "programming_languages": 0.7,
+      "iot_networking": 0.6,
+      "human_computer_interaction": 0.7
+    },
+    "devops": {
+      "cloud_computing": 0.9,
+      "software_engineering": 0.9,
+      "cybersecurity": 0.7,
+      "virtualization_and_containers": 0.9,
+      "programming_languages": 0.7,
+      "mlops": 0.8,
+      "network_security": 0.6
+    },
+    "mlops": {
+      "devops": 0.8,
+      "machine_learning": 0.9,
+      "cloud_computing": 0.8,
+      "data_engineering": 0.8,
+      "software_engineering": 0.7,
+      "deep_learning": 0.8,
+      "big_data": 0.7
+    },
+    "data_engineering": {
+      "big_data": 0.9,
+      "data_science": 0.8,
+      "cloud_computing": 0.8,
+      "programming_languages": 0.7,
+      "devops": 0.7,
+      "mlops": 0.8,
+      "machine_learning": 0.7
+    },
+    "web_development": {
+      "programming_languages": 0.8,
+      "software_engineering": 0.8,
+      "application_development": 0.9,
+      "mobile_development": 0.7,
+      "apis_and_integration": 0.8,
+      "cloud_computing": 0.7,
+      "cybersecurity": 0.6,
+      "human_computer_interaction": 0.7
+    },
+    "mobile_development": {
+      "programming_languages": 0.8,
+      "software_engineering": 0.8,
+      "application_development": 0.8,
+      "web_development": 0.7,
+      "embedded_systems": 0.6,
+      "human_computer_interaction": 0.7,
+      "ar_vr_and_metaverse": 0.7
+    }
+  },
+  "transfer_reasoning": {
+    "high_transfer_pairs": [
+      {
+        "from": "SD",
+        "to": "CC",
+        "score": 0.9,
+        "reasoning": "Software development principles directly apply to cloud-native architectures. DevOps, containerization, and infrastructure-as-code require strong programming skills."
+      },
+      {
+        "from": "AI",
+        "to": "ET",
+        "score": 0.9,
+        "reasoning": "AI/ML techniques are foundational to most emerging technologies including autonomous systems, AR/VR, and brain-computer interfaces."
+      },
+      {
+        "from": "autonomous_systems",
+        "to": "robotics",
+        "score": 0.9,
+        "reasoning": "Autonomous systems and robotics share core technologies: perception, planning, control systems, and real-time processing."
+      },
+      {
+        "from": "chip_design",
+        "to": "microprocessors",
+        "score": 0.9,
+        "reasoning": "Chip design skills directly translate to microprocessor development, sharing tools, methodologies, and architectural principles."
+      }
+    ],
+    "moderate_transfer_pairs": [
+      {
+        "from": "CS",
+        "to": "NT",
+        "score": 0.8,
+        "reasoning": "Network security knowledge translates well to telecommunications, both requiring protocol understanding and threat mitigation."
+      },
+      {
+        "from": "SH",
+        "to": "ES",
+        "score": 0.8,
+        "reasoning": "Systems knowledge provides foundation for semiconductor understanding, sharing concepts of hardware architecture and performance optimization."
+      },
+      {
+        "from": "data_engineering",
+        "to": "big_data",
+        "score": 0.9,
+        "reasoning": "Data engineering and big data share tools (Spark, Hadoop), techniques (distributed processing), and architectural patterns."
+      }
+    ],
+    "low_transfer_pairs": [
+      {
+        "from": "ES",
+        "to": "CC",
+        "score": 0.4,
+        "reasoning": "Semiconductor expertise has limited direct application to cloud computing, though understanding of hardware can inform performance optimization."
+      },
+      {
+        "from": "NT",
+        "to": "AI",
+        "score": 0.5,
+        "reasoning": "Networking knowledge provides some foundation for distributed AI systems but requires significant additional ML expertise."
+      }
+    ]
+  },
+  "application_transfer_weights": {
+    "description": "Weights applied based on application domain similarity",
+    "weights": {
+      "exact_match": 1.0,
+      "related_applications": 0.8,
+      "adjacent_domains": 0.6,
+      "different_industries": 0.4,
+      "unrelated_applications": 0.2
+    },
+    "application_clusters": {
+      "enterprise_systems": ["ERP/CRM", "Banking Platforms", "Healthcare Systems", "Government Systems"],
+      "consumer_applications": ["Mobile Apps", "Web Applications", "Gaming", "Social Networks"],
+      "industrial_applications": ["IoT Systems", "Automation", "Manufacturing", "Supply Chain"],
+      "scientific_computing": ["Simulation", "Modeling", "Research", "Analytics"],
+      "infrastructure": ["Cloud Platforms", "Network Systems", "Security Systems", "DevOps"]
+    }
+  },
+  "calculation_methodology": {
+    "base_transfer_score": "Core domain-to-domain transferability (0.0-1.0)",
+    "tool_overlap_bonus": "+0.1 for each shared tool category (max +0.2)",
+    "technique_similarity_bonus": "+0.05 for each shared technique category (max +0.15)",
+    "application_domain_modifier": "×0.8 to ×1.2 based on application domain alignment",
+    "experience_depth_modifier": "×0.9 to ×1.1 based on vendor's depth in source domain",
+    "final_formula": "min(1.0, base_score + tool_bonus + technique_bonus) × application_modifier × experience_modifier"
+  },
+  "usage_guidelines": {
+    "high_confidence_threshold": 0.7,
+    "moderate_confidence_threshold": 0.5,
+    "low_confidence_threshold": 0.3,
+    "recommendations": {
+      "above_0.7": "Strong transferability - vendor likely to succeed with minimal additional training",
+      "0.5_to_0.7": "Moderate transferability - vendor can adapt with some additional expertise or partnership",
+      "0.3_to_0.5": "Limited transferability - significant learning curve or complementary skills needed",
+      "below_0.3": "Minimal transferability - vendor may not be suitable without major capability building"
+    }
+  },
+  "dynamic_updates": {
+    "technology_evolution_factors": [
+      "Emergence of new programming paradigms",
+      "Convergence of AI with traditional domains",
+      "Cloud-native transformation of legacy systems",
+      "Increasing importance of edge computing",
+      "Growing cybersecurity requirements across all domains"
+    ],
+    "suggested_review_frequency": "Quarterly review of transfer scores based on market feedback and project outcomes"
+  }
+}

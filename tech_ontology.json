@@ -1,0 +1,1532 @@
+{
+  "meta": {
+    "title": "Comprehensive Tech Ontology",
+    "version": "1.0.0",
+    "generated_at": "2025-08-18T13:37:19.586368Z",
+    "notes": "Tech-centric ontology for classification across software, data/AI, cloud, security, networking/telecom, systems/hardware, electronics/semiconductors, and emerging technologies."
+  },
+  "TechnologyDomains": [
+    {
+      "name": "Software Development",
+      "description": "Design, implementation, testing, delivery, and maintenance of software systems and applications.",
+      "subdomains": {
+        "programming_languages": {
+          "tools": [
+            "C",
+            "C++",
+            "Java",
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "Go",
+            "Rust",
+            "C#",
+            "Kotlin",
+            "Swift",
+            "Ruby",
+            "PHP",
+            "Scala",
+            "R",
+            "MATLAB",
+            "Perl",
+            "Haskell",
+            "Elixir",
+            "Erlang",
+            "Dart",
+            "Lua"
+          ],
+          "techniques": [
+            "Object-Oriented Programming",
+            "Functional Programming",
+            "Procedural Programming",
+            "Generic Programming",
+            "Metaprogramming",
+            "Concurrent Programming",
+            "Reactive Programming",
+            "Event-Driven Programming"
+          ],
+          "applications": [
+            "System Programming",
+            "Web Applications",
+            "Mobile Applications",
+            "Game Engines",
+            "Scientific Computing",
+            "Scripting",
+            "Embedded Software",
+            "Enterprise Software"
+          ]
+        },
+        "software_engineering": {
+          "tools": [
+            "Git",
+            "GitHub",
+            "GitLab",
+            "Bitbucket",
+            "Jira",
+            "Confluence",
+            "Azure DevOps",
+            "IntelliJ IDEA",
+            "Eclipse",
+            "Visual Studio",
+            "VS Code",
+            "SonarQube",
+            "Postman"
+          ],
+          "techniques": [
+            "Agile",
+            "Scrum",
+            "Kanban",
+            "Waterfall",
+            "Extreme Programming (XP)",
+            "Code Review",
+            "Pair Programming",
+            "System Design",
+            "Architecture Patterns",
+            "Domain-Driven Design",
+            "Clean Architecture",
+            "SOLID",
+            "Design Patterns"
+          ],
+          "applications": [
+            "Enterprise Systems",
+            "ERP/CRM",
+            "Banking Platforms",
+            "Healthcare Systems",
+            "Government Systems",
+            "SaaS Products",
+            "Internal Tools"
+          ]
+        },
+        "application_development": {
+          "tools": [
+            "Spring Boot",
+            "Quarkus",
+            ".NET",
+            "ASP.NET Core",
+            "Django",
+            "Flask",
+            "FastAPI",
+            "Laravel",
+            "Ruby on Rails",
+            "Phoenix"
+          ],
+          "techniques": [
+            "Model-View-Controller (MVC)",
+            "Model-View-ViewModel (MVVM)",
+            "Service-Oriented Architecture",
+            "Hexagonal Architecture",
+            "API Design",
+            "Low-Code/No-Code"
+          ],
+          "applications": [
+            "Desktop Apps",
+            "Backoffice Systems",
+            "POS Systems",
+            "Accounting/HR Apps",
+            "Workflow Automation"
+          ]
+        },
+        "web_development": {
+          "tools": [
+            "HTML",
+            "CSS",
+            "Sass",
+            "Less",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Angular",
+            "Vue",
+            "Next.js",
+            "Nuxt",
+            "Svelte",
+            "SvelteKit",
+            "Node.js",
+            "Express",
+            "NestJS",
+            "Remix"
+          ],
+          "techniques": [
+            "Responsive Design",
+            "Progressive Web Apps",
+            "Server-Side Rendering",
+            "Static Site Generation",
+            "Client-Side Rendering",
+            "REST APIs",
+            "GraphQL",
+            "WebSockets",
+            "Web Components"
+          ],
+          "applications": [
+            "E-commerce",
+            "CMS/Blogs",
+            "Social Networks",
+            "Portals/Dashboards",
+            "Marketing Sites",
+            "Streaming Sites"
+          ]
+        },
+        "mobile_development": {
+          "tools": [
+            "Android Studio",
+            "Xcode",
+            "SwiftUI",
+            "Kotlin",
+            "Jetpack Compose",
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Capacitor",
+            "Cordova"
+          ],
+          "techniques": [
+            "Native Development",
+            "Cross-Platform Development",
+            "Hybrid Apps",
+            "Offline-First",
+            "Mobile UI/UX",
+            "App Store/Play Store Deployment"
+          ],
+          "applications": [
+            "Banking Apps",
+            "Ride-Sharing",
+            "Food Delivery",
+            "Health & Fitness",
+            "EdTech",
+            "Retail Apps"
+          ]
+        },
+        "game_development": {
+          "tools": [
+            "Unity",
+            "Unreal Engine",
+            "Godot",
+            "CryEngine",
+            "Blender",
+            "Maya",
+            "3ds Max",
+            "FMOD",
+            "Wwise"
+          ],
+          "techniques": [
+            "Game Physics",
+            "AI for Games",
+            "Procedural Generation",
+            "3D Rendering",
+            "Networking/Multiplayer",
+            "Level Design"
+          ],
+          "applications": [
+            "PC/Console Games",
+            "Mobile Games",
+            "VR/AR Titles",
+            "Serious Games",
+            "Simulations/Training"
+          ]
+        },
+        "devops": {
+          "tools": [
+            "Jenkins",
+            "GitHub Actions",
+            "GitLab CI",
+            "CircleCI",
+            "Argo CD",
+            "Spinnaker",
+            "Docker",
+            "Kubernetes",
+            "Helm",
+            "Terraform",
+            "Pulumi",
+            "Ansible",
+            "Packer",
+            "Prometheus",
+            "Grafana",
+            "ELK Stack",
+            "OpenTelemetry"
+          ],
+          "techniques": [
+            "Continuous Integration",
+            "Continuous Delivery/Deployment",
+            "Infrastructure as Code",
+            "GitOps",
+            "Blue/Green Deployments",
+            "Canary Releases",
+            "Observability"
+          ],
+          "applications": [
+            "Automated Pipelines",
+            "Scalable Deployments",
+            "SRE Practices",
+            "Multi-Region Rollouts",
+            "Disaster Recovery Automation"
+          ]
+        },
+        "apis_and_integration": {
+          "tools": [
+            "OpenAPI/Swagger",
+            "Postman",
+            "Insomnia",
+            "Kong",
+            "Apigee",
+            "MuleSoft",
+            "WSO2",
+            "Kafka",
+            "RabbitMQ",
+            "gRPC"
+          ],
+          "techniques": [
+            "API First Design",
+            "API Gateway",
+            "Service Mesh",
+            "Event-Driven Architecture",
+            "Webhooks",
+            "Idempotency",
+            "Rate Limiting",
+            "Circuit Breaking"
+          ],
+          "applications": [
+            "Payment Integration",
+            "Open Banking",
+            "Partner Ecosystems",
+            "IoT Messaging",
+            "Supply Chain Integrations"
+          ]
+        },
+        "testing_and_quality_assurance": {
+          "tools": [
+            "JUnit",
+            "TestNG",
+            "pytest",
+            "Cypress",
+            "Playwright",
+            "Selenium",
+            "Mocha",
+            "Jest",
+            "Postman/Newman",
+            "k6",
+            "JMeter",
+            "Locust"
+          ],
+          "techniques": [
+            "Unit/Integration/System Testing",
+            "End-to-End Testing",
+            "Contract Testing",
+            "Performance & Load Testing",
+            "Security Testing",
+            "TDD",
+            "BDD",
+            "Chaos Engineering"
+          ],
+          "applications": [
+            "Quality Gates",
+            "Release Confidence",
+            "Regression Suites",
+            "SLO/SLA Validation",
+            "Resilience Validation"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Data & Artificial Intelligence",
+      "description": "Data platforms, analytics, machine learning, and intelligent systems for decision-making and automation.",
+      "subdomains": {
+        "data_science": {
+          "tools": [
+            "Python",
+            "R",
+            "Pandas",
+            "NumPy",
+            "SciPy",
+            "Jupyter",
+            "Tableau",
+            "Power BI",
+            "Excel",
+            "MATLAB"
+          ],
+          "techniques": [
+            "EDA",
+            "Statistical Modeling",
+            "Sampling/Bootstrapping",
+            "Hypothesis Testing",
+            "Feature Engineering",
+            "Time Series Analysis"
+          ],
+          "applications": [
+            "Business Analytics",
+            "Healthcare Analytics",
+            "Marketing Attribution",
+            "Risk Analytics",
+            "Operations Optimization"
+          ]
+        },
+        "machine_learning": {
+          "tools": [
+            "scikit-learn",
+            "TensorFlow",
+            "PyTorch",
+            "XGBoost",
+            "LightGBM",
+            "CatBoost"
+          ],
+          "techniques": [
+            "Supervised/Unsupervised Learning",
+            "Semi-Supervised Learning",
+            "Active Learning",
+            "Ensemble Methods",
+            "Model Interpretability (SHAP/LIME)"
+          ],
+          "applications": [
+            "Recommendations",
+            "Fraud/Anomaly Detection",
+            "Churn Prediction",
+            "Demand Forecasting",
+            "Predictive Maintenance"
+          ]
+        },
+        "deep_learning": {
+          "tools": [
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "JAX",
+            "ONNX",
+            "NVIDIA CUDA/cuDNN"
+          ],
+          "techniques": [
+            "CNNs",
+            "RNN/LSTM/GRU",
+            "Transformers",
+            "Autoencoders",
+            "GANs",
+            "Self-Supervised Learning"
+          ],
+          "applications": [
+            "Vision Perception",
+            "Speech Recognition",
+            "NLP Understanding",
+            "Drug Discovery",
+            "Autonomous Driving Perception"
+          ]
+        },
+        "natural_language_processing": {
+          "tools": [
+            "Hugging Face Transformers",
+            "spaCy",
+            "NLTK",
+            "OpenNMT",
+            "Stanford CoreNLP"
+          ],
+          "techniques": [
+            "Tokenization/Embeddings",
+            "NER",
+            "Summarization",
+            "Question Answering",
+            "Machine Translation",
+            "RAG (Retrieval Augmented Generation)"
+          ],
+          "applications": [
+            "Chatbots/Assistants",
+            "Document Intelligence",
+            "Search/Ranking",
+            "Voice Interfaces",
+            "Sentiment & Brand Monitoring"
+          ]
+        },
+        "computer_vision": {
+          "tools": [
+            "OpenCV",
+            "Detectron2",
+            "YOLO",
+            "MMDetection",
+            "MediaPipe"
+          ],
+          "techniques": [
+            "Classification/Detection/Segmentation",
+            "Pose Estimation",
+            "OCR",
+            "Multi-View Geometry",
+            "SLAM"
+          ],
+          "applications": [
+            "Medical Imaging",
+            "Retail Analytics",
+            "Surveillance",
+            "AR/VR",
+            "Quality Inspection"
+          ]
+        },
+        "reinforcement_learning": {
+          "tools": [
+            "OpenAI Gym",
+            "PettingZoo",
+            "RLlib",
+            "Stable-Baselines3"
+          ],
+          "techniques": [
+            "Q-Learning",
+            "Policy Gradients",
+            "Actor-Critic",
+            "Model-Based RL",
+            "Multi-Agent RL"
+          ],
+          "applications": [
+            "Robotics Control",
+            "Game AI",
+            "Operations Research",
+            "Ad Bidding",
+            "Energy Grid Control"
+          ]
+        },
+        "data_engineering": {
+          "tools": [
+            "Apache Spark",
+            "Hadoop",
+            "Hive",
+            "Flink",
+            "Beam",
+            "Airflow",
+            "dbt",
+            "Kafka",
+            "NiFi",
+            "Snowflake",
+            "BigQuery",
+            "Redshift",
+            "Databricks"
+          ],
+          "techniques": [
+            "Batch/Stream Processing",
+            "Data Warehousing/Lakes",
+            "Lakehouse",
+            "ELT/ETL",
+            "Data Orchestration",
+            "Data Quality/Validation"
+          ],
+          "applications": [
+            "Unified Data Platforms",
+            "Real-Time Analytics",
+            "IoT Pipelines",
+            "ML Feature Pipelines",
+            "Compliance/Reporting"
+          ]
+        },
+        "big_data": {
+          "tools": [
+            "Hadoop",
+            "Spark",
+            "Presto/Trino",
+            "Druid",
+            "ClickHouse"
+          ],
+          "techniques": [
+            "Distributed Computing",
+            "Columnar Storage",
+            "Sharding/Partitioning",
+            "Compression",
+            "Query Optimization"
+          ],
+          "applications": [
+            "Clickstream Analytics",
+            "Ad Tech",
+            "Telemetry",
+            "Genomics",
+            "Weather/Climate Modeling"
+          ]
+        },
+        "data_visualization": {
+          "tools": [
+            "Tableau",
+            "Power BI",
+            "Looker",
+            "Superset",
+            "Matplotlib",
+            "Plotly",
+            "D3.js"
+          ],
+          "techniques": [
+            "Dashboard Design",
+            "Storytelling with Data",
+            "Geospatial Visualization",
+            "Time-Series Viz",
+            "A/B Test Reporting"
+          ],
+          "applications": [
+            "Executive Dashboards",
+            "Operational Dashboards",
+            "Scientific Viz",
+            "Marketing Reports",
+            "Real-Time Monitoring"
+          ]
+        },
+        "generative_ai": {
+          "tools": [
+            "Diffusers",
+            "Stable Diffusion",
+            "OpenAI API",
+            "Midjourney (usage)",
+            "Runway",
+            "ComfyUI"
+          ],
+          "techniques": [
+            "Diffusion Models",
+            "Transformers/LLMs",
+            "LoRA/PEFT",
+            "Prompt Engineering",
+            "Fine-Tuning/Distillation"
+          ],
+          "applications": [
+            "Text/Image/Video/Audio Generation",
+            "Code Generation",
+            "Design Assist",
+            "Content Localization",
+            "Data Augmentation"
+          ]
+        },
+        "mlops": {
+          "tools": [
+            "MLflow",
+            "Kubeflow",
+            "SageMaker",
+            "Vertex AI",
+            "Azure ML",
+            "DVC",
+            "Weights & Biases",
+            "Feast"
+          ],
+          "techniques": [
+            "Experiment Tracking",
+            "CI/CD for ML",
+            "Feature Stores",
+            "Model Registry",
+            "Monitoring/Drift Detection"
+          ],
+          "applications": [
+            "Production ML/AI",
+            "A/B & Shadow Deployments",
+            "Model Governance",
+            "Responsible AI Ops"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cloud Computing",
+      "description": "On-demand compute, storage, networking, and platform services delivered over the internet.",
+      "subdomains": {
+        "public_cloud": {
+          "tools": [
+            "AWS",
+            "Microsoft Azure",
+            "Google Cloud Platform",
+            "IBM Cloud",
+            "Oracle Cloud"
+          ],
+          "techniques": [
+            "Cloud Native Design",
+            "Multi-AZ/Region Architectures",
+            "Managed Services Adoption",
+            "Cost Optimization (FinOps)",
+            "Autoscaling"
+          ],
+          "applications": [
+            "Web/App Hosting",
+            "Managed Databases",
+            "Analytics Platforms",
+            "Serverless Backends",
+            "Global Content Delivery"
+          ]
+        },
+        "private_cloud": {
+          "tools": [
+            "VMware vSphere",
+            "OpenStack",
+            "Proxmox",
+            "Nutanix",
+            "CloudStack"
+          ],
+          "techniques": [
+            "Virtualization",
+            "Resource Pooling",
+            "Tenant Isolation",
+            "On-Prem Object Storage",
+            "SDN/NFV"
+          ],
+          "applications": [
+            "Regulated Workloads",
+            "Edge Data Centers",
+            "Enterprise Virtualization",
+            "VDI",
+            "Internal PaaS"
+          ]
+        },
+        "hybrid_cloud": {
+          "tools": [
+            "Azure Arc",
+            "AWS Outposts",
+            "Google Anthos",
+            "Red Hat OpenShift"
+          ],
+          "techniques": [
+            "Workload Portability",
+            "Unified Policy/Identity",
+            "Data Gravity Mitigation",
+            "Bursting"
+          ],
+          "applications": [
+            "On-Prem + Cloud Integration",
+            "Disaster Recovery",
+            "Latency-Sensitive Apps",
+            "Gradual Cloud Migration"
+          ]
+        },
+        "serverless_computing": {
+          "tools": [
+            "AWS Lambda",
+            "Azure Functions",
+            "Google Cloud Functions",
+            "Cloud Run",
+            "Azure Container Apps"
+          ],
+          "techniques": [
+            "Event-Driven Architectures",
+            "Stateless Functions",
+            "Cold Start Optimization",
+            "Function Chaining/Orchestration"
+          ],
+          "applications": [
+            "Event Processing",
+            "API Backends",
+            "ETL Jobs",
+            "Chatbots/Automation",
+            "IoT Ingestion"
+          ]
+        },
+        "cloud_security": {
+          "tools": [
+            "AWS Security Hub",
+            "Azure Security Center",
+            "GCP Security Command Center",
+            "HashiCorp Vault",
+            "Prisma Cloud",
+            "Cloudflare"
+          ],
+          "techniques": [
+            "Zero Trust in Cloud",
+            "IAM Least Privilege",
+            "Secrets Management",
+            "KMS/Encryption",
+            "Cloud Compliance (CIS/NIST)"
+          ],
+          "applications": [
+            "Secure Multi-Tenancy",
+            "Threat Detection",
+            "WAF/CDN Protection",
+            "DDOS Mitigation",
+            "Posture Management"
+          ]
+        },
+        "cloud_networking": {
+          "tools": [
+            "VPC/VNet",
+            "Transit Gateway/Virtual WAN",
+            "Cloud Load Balancers",
+            "Service Mesh (Istio/Linkerd)"
+          ],
+          "techniques": [
+            "Overlay Networking",
+            "Service Discovery",
+            "Private Link/Endpoints",
+            "Hybrid Connectivity (VPN/Direct Connect/ExpressRoute)"
+          ],
+          "applications": [
+            "Global Anycast Services",
+            "Service-to-Service Security",
+            "Multi-Cluster Networking",
+            "API Mesh"
+          ]
+        },
+        "multi_cloud_management": {
+          "tools": [
+            "Terraform",
+            "Pulumi",
+            "Crossplane",
+            "Spacelift",
+            "ArgoCD",
+            "Anthos/Arc"
+          ],
+          "techniques": [
+            "Abstraction/IaC",
+            "Policy as Code",
+            "Federated Identity",
+            "Cost/Health Aggregation"
+          ],
+          "applications": [
+            "Cloud Portability",
+            "Unified Governance",
+            "DR Across Clouds",
+            "Avoid Vendor Lock-In"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cybersecurity",
+      "description": "Protection of systems, networks, applications, and data against threats and vulnerabilities.",
+      "subdomains": {
+        "network_security": {
+          "tools": [
+            "Firewalls",
+            "IDS/IPS",
+            "Suricata",
+            "Zeek",
+            "Snort",
+            "Cisco ASA",
+            "Juniper SRX"
+          ],
+          "techniques": [
+            "Segmentation/Microsegmentation",
+            "NAC",
+            "TLS/SSL",
+            "VPN",
+            "Zero Trust Networking"
+          ],
+          "applications": [
+            "Perimeter Defense",
+            "East-West Protection",
+            "Secure Remote Access",
+            "Threat Detection/Response"
+          ]
+        },
+        "application_security": {
+          "tools": [
+            "OWASP ZAP",
+            "Burp Suite",
+            "Snyk",
+            "Checkmarx",
+            "Fortify",
+            "GitHub Advanced Security"
+          ],
+          "techniques": [
+            "SAST/DAST/IAST",
+            "Threat Modeling",
+            "Secure SDLC",
+            "Secure Coding",
+            "SBOM/Supply Chain Security"
+          ],
+          "applications": [
+            "Web/Mobile App Security",
+            "API Security",
+            "DevSecOps Pipelines",
+            "Compliance by Design"
+          ]
+        },
+        "cryptography": {
+          "tools": [
+            "OpenSSL",
+            "Bouncy Castle",
+            "NaCl/libsodium",
+            "AWS KMS",
+            "Azure Key Vault"
+          ],
+          "techniques": [
+            "Symmetric/Asymmetric Crypto",
+            "Hashing/Signatures",
+            "PKI",
+            "Post-Quantum Crypto (PQ)",
+            "Threshold/Secret Sharing"
+          ],
+          "applications": [
+            "Data-at-Rest/Transit Encryption",
+            "Secure Identity",
+            "Digital Signatures",
+            "HSM-backed Key Mgmt"
+          ]
+        },
+        "identity_and_access_management": {
+          "tools": [
+            "Okta",
+            "Auth0",
+            "Keycloak",
+            "Azure AD",
+            "Ping Identity"
+          ],
+          "techniques": [
+            "SSO/SAML/OAuth2/OIDC",
+            "MFA/Passwordless",
+            "RBAC/ABAC",
+            "JIT Access",
+            "Privileged Access Mgmt (PAM)"
+          ],
+          "applications": [
+            "Customer IAM (CIAM)",
+            "Workforce IAM",
+            "API/Auth Layers",
+            "Zero Trust Access"
+          ]
+        },
+        "threat_intelligence": {
+          "tools": [
+            "MISP",
+            "TheHive/Cortex",
+            "VirusTotal",
+            "Shodan",
+            "GreyNoise",
+            "SIEM (Splunk/ELK/QRadar)"
+          ],
+          "techniques": [
+            "IOC/IOA Management",
+            "Hunting",
+            "MITRE ATT&CK Mapping",
+            "TTP Analysis",
+            "Automated Enrichment"
+          ],
+          "applications": [
+            "SOC Operations",
+            "IR Playbooks",
+            "Attack Surface Mgmt",
+            "Brand/Leak Monitoring"
+          ]
+        },
+        "blockchain_security": {
+          "tools": [
+            "Slither",
+            "Mythril",
+            "Foundry/Forge",
+            "Hardhat",
+            "OpenZeppelin"
+          ],
+          "techniques": [
+            "Smart Contract Audits",
+            "Formal Verification",
+            "MEV Analysis",
+            "Bridge/Oracle Security"
+          ],
+          "applications": [
+            "DeFi/NFT Security",
+            "Token Launches",
+            "Custody/Wallet Security",
+            "Chain Monitoring"
+          ]
+        },
+        "zero_trust_security": {
+          "tools": [
+            "Zscaler",
+            "Cloudflare Zero Trust",
+            "Tailscale",
+            "BeyondCorp",
+            "NGFW with ZTNA"
+          ],
+          "techniques": [
+            "Continuous Verification",
+            "Least Privilege",
+            "Microperimeters",
+            "Device Posture Assessment"
+          ],
+          "applications": [
+            "Secure BYOD/Remote",
+            "SaaS Access Control",
+            "Lateral Movement Mitigation",
+            "Modern WAN Replacement"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Networking & Telecommunications",
+      "description": "Design and operation of data/voice networks, wireless and wired communications, and telecom services.",
+      "subdomains": {
+        "5g_and_telecom": {
+          "tools": [
+            "gNodeB/eNodeB",
+            "Core (AMF/UPF/SMF)",
+            "Open RAN (O-RAN)",
+            "SDR (USRP)",
+            "IMS/VoLTE/VoWiFi"
+          ],
+          "techniques": [
+            "NR/LTE",
+            "Massive MIMO",
+            "Network Slicing",
+            "VoNR/VoLTE",
+            "Carrier Aggregation"
+          ],
+          "applications": [
+            "Mobile Broadband",
+            "Private 5G",
+            "Fixed Wireless Access",
+            "IoT Connectivity",
+            "Industrial 5G"
+          ]
+        },
+        "iot_networking": {
+          "tools": [
+            "LoRaWAN",
+            "NB-IoT",
+            "Sigfox",
+            "Zigbee",
+            "Z-Wave",
+            "BLE",
+            "Thread/Matter"
+          ],
+          "techniques": [
+            "Low-Power Wide Area",
+            "Gateway/Edge Aggregation",
+            "Device Provisioning",
+            "OTA Updates",
+            "Twin Models"
+          ],
+          "applications": [
+            "Smart Homes",
+            "Smart Cities",
+            "Industrial IoT",
+            "Asset Tracking",
+            "Agritech Sensors"
+          ]
+        },
+        "edge_computing": {
+          "tools": [
+            "K3s",
+            "KubeEdge",
+            "Greengrass",
+            "Azure IoT Edge",
+            "Edge TPU/NPU"
+          ],
+          "techniques": [
+            "Data Locality",
+            "Stream Processing at Edge",
+            "Model Inference at Edge",
+            "Federated Learning"
+          ],
+          "applications": [
+            "Low-Latency Analytics",
+            "Video Analytics",
+            "Autonomous Systems",
+            "Retail Edge",
+            "Telco MEC"
+          ]
+        },
+        "network_protocols": {
+          "tools": [
+            "Wireshark",
+            "tcpdump",
+            "Iperf",
+            "FRRouting",
+            "BIRD"
+          ],
+          "techniques": [
+            "TCP/IP",
+            "BGP/OSPF/IS-IS",
+            "HTTP/2/3 & QUIC",
+            "MPLS/Segment Routing",
+            "DNS/DNSSEC",
+            "SD-WAN"
+          ],
+          "applications": [
+            "Internet Backbone",
+            "Datacenter Fabrics",
+            "Enterprise WAN",
+            "CDNs",
+            "Peering/Transit"
+          ]
+        },
+        "satellite_communication": {
+          "tools": [
+            "VSAT",
+            "LEO/MEO/GEO Terminals",
+            "DVB-S2X",
+            "Starlink/OneWeb Terminals"
+          ],
+          "techniques": [
+            "Beamforming",
+            "Doppler Compensation",
+            "Inter-Satellite Links",
+            "Store-and-Forward"
+          ],
+          "applications": [
+            "Remote Connectivity",
+            "Maritime/Aviation Links",
+            "Disaster Recovery Comms",
+            "Backhaul"
+          ]
+        },
+        "wireless_networking": {
+          "tools": [
+            "Wi‑Fi 5/6/7 APs",
+            "Controllers",
+            "Spectrum Analyzers"
+          ],
+          "techniques": [
+            "802.11ax/be",
+            "MU-MIMO/OFDMA",
+            "Roaming/PMK Caching",
+            "WPA3/Passpoint"
+          ],
+          "applications": [
+            "Enterprise WLAN",
+            "Public Wi‑Fi",
+            "Home Mesh",
+            "Campus Networks",
+            "Hospitality Wi‑Fi"
+          ]
+        },
+        "optical_networking": {
+          "tools": [
+            "DWDM Systems",
+            "ROADM",
+            "Optical Transceivers",
+            "OTDR"
+          ],
+          "techniques": [
+            "WDM",
+            "Coherent Optics",
+            "Fiber Amplification (EDFA)",
+            "Passive Optical Networks (PON)"
+          ],
+          "applications": [
+            "Metro/Long-Haul Transport",
+            "FTTH/B",
+            "Datacenter Interconnect",
+            "5G Fronthaul/Backhaul"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Systems & Hardware",
+      "description": "Operating systems, virtualization, embedded systems, and high-performance computing platforms.",
+      "subdomains": {
+        "operating_systems": {
+          "tools": [
+            "Linux",
+            "Windows",
+            "BSD",
+            "macOS",
+            "Android",
+            "RTOS (FreeRTOS/Zephyr)"
+          ],
+          "techniques": [
+            "Kernel Development",
+            "Scheduling/Memory Mgmt",
+            "Filesystem/Storage",
+            "Device Drivers",
+            "Security/SELinux"
+          ],
+          "applications": [
+            "Servers/Desktops",
+            "Mobile/Embedded",
+            "Network Appliances",
+            "Industrial Controllers"
+          ]
+        },
+        "embedded_systems": {
+          "tools": [
+            "MCUs (ARM Cortex, RISC-V)",
+            "Arduino",
+            "Raspberry Pi",
+            "ESP32",
+            "STM32",
+            "FreeRTOS",
+            "Zephyr"
+          ],
+          "techniques": [
+            "Bare-Metal",
+            "RTOS Design",
+            "Low-Power Design",
+            "Firmware OTA",
+            "I2C/SPI/UART",
+            "CAN/LIN"
+          ],
+          "applications": [
+            "Wearables",
+            "Smart Appliances",
+            "Automotive ECUs",
+            "Medical Devices",
+            "Industrial Sensors/PLC"
+          ]
+        },
+        "high_performance_computing": {
+          "tools": [
+            "MPI",
+            "OpenMP",
+            "CUDA",
+            "HIP",
+            "ROCm",
+            "Slurm",
+            "PBS Pro"
+          ],
+          "techniques": [
+            "Parallel Programming",
+            "Vectorization",
+            "GPU Acceleration",
+            "Distributed Filesystems (Lustre/GPFS)"
+          ],
+          "applications": [
+            "Scientific Simulation",
+            "CFD",
+            "Weather Modeling",
+            "Genome Analysis",
+            "Oil & Gas Reservoir Modeling"
+          ]
+        },
+        "quantum_computing": {
+          "tools": [
+            "Qiskit",
+            "Cirq",
+            "Braket",
+            "Q#",
+            "PennyLane"
+          ],
+          "techniques": [
+            "Gate-Model Quantum",
+            "Annealing",
+            "Variational Algorithms (VQE/QAOA)",
+            "Error Mitigation/Correction"
+          ],
+          "applications": [
+            "Optimization",
+            "Chemistry Simulation",
+            "Cryptanalysis Research",
+            "Material Discovery"
+          ]
+        },
+        "virtualization_and_containers": {
+          "tools": [
+            "VMware ESXi",
+            "KVM/QEMU",
+            "Hyper‑V",
+            "Docker",
+            "containerd",
+            "CRI‑O",
+            "Kubernetes"
+          ],
+          "techniques": [
+            "Paravirtualization",
+            "Hardware Virtualization",
+            "Container Orchestration",
+            "Resource Quotas",
+            "cgroups/namespaces"
+          ],
+          "applications": [
+            "Server Consolidation",
+            "Cloud-Native Workloads",
+            "Multi-Tenant Platforms",
+            "Edge Containerization"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Electronics & Semiconductors",
+      "description": "Design, fabrication, and packaging of electronic circuits, chips, and semiconductor devices.",
+      "subdomains": {
+        "chip_design": {
+          "tools": [
+            "Cadence",
+            "Synopsys",
+            "Siemens EDA (Mentor)",
+            "Verilog",
+            "VHDL",
+            "SystemVerilog",
+            "SystemC",
+            "HLS"
+          ],
+          "techniques": [
+            "Microarchitecture",
+            "Pipelining",
+            "Clock/Power Gating",
+            "Timing Closure",
+            "Floorplanning",
+            "DFT/DFM"
+          ],
+          "applications": [
+            "CPUs",
+            "GPUs/NPUs",
+            "MCUs",
+            "DSPs",
+            "Baseband/Modem",
+            "Automotive SoCs"
+          ]
+        },
+        "semiconductor_manufacturing": {
+          "tools": [
+            "Lithography (EUV)",
+            "Deposition (CVD/PVD)",
+            "Etch",
+            "CMP",
+            "Metrology/Inspection"
+          ],
+          "techniques": [
+            "Node Scaling (nm)",
+            "Yield Improvement",
+            "Process Integration",
+            "Advanced Packaging (2.5D/3D)"
+          ],
+          "applications": [
+            "Foundry Production",
+            "Specialty Nodes (Analog/Power)",
+            "MEMS",
+            "Sensor Fabrication"
+          ]
+        },
+        "microprocessors": {
+          "tools": [
+            "ISA (x86, ARM, RISC‑V)",
+            "Microcode Tools",
+            "Simulators (gem5)"
+          ],
+          "techniques": [
+            "Superscalar/Out-of-Order",
+            "Branch Prediction",
+            "Cache Coherency",
+            "Vector/Matrix Extensions"
+          ],
+          "applications": [
+            "Servers",
+            "PCs/Laptops",
+            "Mobile Devices",
+            "Edge/IoT",
+            "Automotive"
+          ]
+        },
+        "system_on_chip": {
+          "tools": [
+            "IP Catalogs (ARM, Imagination)",
+            "AMBA/AXI",
+            "NoC Tools",
+            "UPF/CPF"
+          ],
+          "techniques": [
+            "Heterogeneous Integration",
+            "Power/Clock Domains",
+            "Hardware Security (TEE/PUF)",
+            "Chiplet Architectures"
+          ],
+          "applications": [
+            "Smartphones/Tablets",
+            "Wearables",
+            "Set‑Top/TV",
+            "AR/VR Headsets",
+            "Drones"
+          ]
+        },
+        "vlsi_design": {
+          "tools": [
+            "Place & Route",
+            "Static Timing Analysis",
+            "SPICE",
+            "PDK Libraries"
+          ],
+          "techniques": [
+            "Analog/Mixed‑Signal",
+            "Low‑Power Design",
+            "Signal Integrity/EMI",
+            "Reliability/BTI/EM"
+          ],
+          "applications": [
+            "Analog Front-Ends",
+            "Power Management ICs",
+            "High‑Speed SerDes",
+            "Sensor Interfaces"
+          ]
+        },
+        "analog_and_digital_circuits": {
+          "tools": [
+            "SPICE/NGSPICE",
+            "LTspice",
+            "Altium Designer",
+            "KiCad",
+            "OrCAD"
+          ],
+          "techniques": [
+            "Op-Amps/Filters",
+            "ADC/DAC",
+            "PLL",
+            "Power Electronics",
+            "High-Speed PCB",
+            "SI/PI"
+          ],
+          "applications": [
+            "Audio/Power Systems",
+            "RF Front-Ends",
+            "Instrumentation",
+            "Industrial Control",
+            "Consumer Electronics"
+          ]
+        },
+        "electronic_design_automation": {
+          "tools": [
+            "Cadence Virtuoso/Innovus",
+            "Synopsys Design Compiler/ICC",
+            "Siemens Calibre",
+            "OpenROAD",
+            "Yosys"
+          ],
+          "techniques": [
+            "Synthesis",
+            "Verification (UVM)",
+            "Physical Verification (DRC/LVS)",
+            "Emulation/FPGA Prototyping"
+          ],
+          "applications": [
+            "RTL-to-GDSII Flows",
+            "Pre/Post-Silicon Validation",
+            "Design Signoff"
+          ]
+        },
+        "fpga_and_asic": {
+          "tools": [
+            "Xilinx/Vitis",
+            "Intel Quartus",
+            "Lattice Diamond",
+            "Vivado HLS"
+          ],
+          "techniques": [
+            "RTL Design",
+            "IP Integration",
+            "Partial Reconfiguration",
+            "Timing/Resource Optimization"
+          ],
+          "applications": [
+            "Prototyping",
+            "Hardware Acceleration",
+            "Software-Defined Radio",
+            "Aerospace/Defense"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Emerging Technologies",
+      "description": "New and fast-evolving computing modalities and interaction paradigms.",
+      "subdomains": {
+        "ar_vr_and_metaverse": {
+          "tools": [
+            "Unity",
+            "Unreal",
+            "WebXR",
+            "Three.js",
+            "ARKit",
+            "ARCore",
+            "OpenXR"
+          ],
+          "techniques": [
+            "Spatial Computing",
+            "SLAM",
+            "Hand/Body Tracking",
+            "Real-Time Rendering",
+            "Haptics"
+          ],
+          "applications": [
+            "Immersive Training",
+            "Remote Collaboration",
+            "Gaming/Entertainment",
+            "Retail Try-On",
+            "Design/Visualization"
+          ]
+        },
+        "autonomous_systems": {
+          "tools": [
+            "ROS/ROS2",
+            "PX4/ArduPilot",
+            "Apollo",
+            "Autoware"
+          ],
+          "techniques": [
+            "Sensor Fusion",
+            "Localization & Mapping",
+            "Motion Planning",
+            "Perception/Prediction",
+            "Safety & Redundancy"
+          ],
+          "applications": [
+            "Self-Driving Vehicles",
+            "Drones/UAV",
+            "Warehouse/Service Robots",
+            "Agricultural Robots"
+          ]
+        },
+        "human_computer_interaction": {
+          "tools": [
+            "Electron",
+            "Tauri",
+            "Qt",
+            "Figma",
+            "Framer"
+          ],
+          "techniques": [
+            "Usability Engineering",
+            "Accessibility (WCAG)",
+            "Conversational UI",
+            "Gesture/Voice Interfaces"
+          ],
+          "applications": [
+            "Assistive Tech",
+            "Kiosks/Terminals",
+            "Voice Agents",
+            "Multimodal Apps"
+          ]
+        },
+        "brain_computer_interfaces": {
+          "tools": [
+            "EEG/EMG/MEG Devices",
+            "OpenBCI",
+            "BCI2000"
+          ],
+          "techniques": [
+            "Signal Acquisition/Filtering",
+            "Feature Extraction",
+            "Neurofeedback",
+            "Non/Minimally Invasive Interfaces"
+          ],
+          "applications": [
+            "Assistive Communication",
+            "Neurorehab",
+            "Cognitive Monitoring",
+            "Hands-Free Control"
+          ]
+        },
+        "robotics": {
+          "tools": [
+            "ROS/ROS2",
+            "Gazebo",
+            "MoveIt",
+            "OpenCV",
+            "PCL"
+          ],
+          "techniques": [
+            "Kinematics/Dynamics",
+            "Control Theory",
+            "Perception",
+            "Grasping/Manipulation",
+            "Path Planning"
+          ],
+          "applications": [
+            "Industrial Automation",
+            "Medical Robotics",
+            "Service Robots",
+            "Logistics/AMRs"
+          ]
+        },
+        "nanotechnology_in_electronics": {
+          "tools": [
+            "AFM/SEM/TEM",
+            "Cleanroom Tooling",
+            "Nanoimprint Lithography"
+          ],
+          "techniques": [
+            "Nanofabrication",
+            "2D Materials (Graphene/TMDs)",
+            "Quantum Dots",
+            "Spintronics"
+          ],
+          "applications": [
+            "Advanced Sensors",
+            "Flexible Electronics",
+            "Energy Harvesting",
+            "Next-Gen Memory"
+          ]
+        }
+      }
+    }
+  ]
+}
