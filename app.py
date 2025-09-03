@@ -93,7 +93,7 @@ def init_language_model():
     """Initialize language model"""
     try:
         # Prefer Streamlit secrets if available, else fallback to os.getenv()
-        api_key =  st.secrets.get("GOOGLE_API_KEY")
+        api_key = "AIzaSyAV6D0M-6zyrrp1icYvXGCRVj5ifhmVWpg"
         
         if not api_key:
             st.error("❌ GOOGLE_API_KEY not found in environment variables or secrets")
