@@ -12,9 +12,17 @@ from keybert import KeyBERT
 from rake_nltk import Rake
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
-
 import nltk
 
+nltk_data_dir = '/home/appuser/nltk_data'
+os.environ['NLTK_DATA'] = nltk_data_dir
+
+# Download punkt_tab if not already present
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab', download_dir=nltk_data_dir, quiet=True)
+    
 # Download stopwords only if not already present
 nltk.download('stopwords', quiet=True)
 
