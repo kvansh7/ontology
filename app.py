@@ -92,7 +92,14 @@ if db is not None:
 def init_language_model():
     """Initialize language model"""
     try:
-        os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+        # Prefer Streamlit secrets if available, else fallback to os.getenv()
+        api_key = st.secrets.get("GOOGLE_API_KEY", os.getenv("GOOGLE_API_KEY"))
+        
+        if not api_key:
+            st.error("❌ GOOGLE_API_KEY not found in environment variables or secrets")
+            return None
+
+        os.environ["GOOGLE_API_KEY"] = api_key  # required by langchain-google-genai
         model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
         return model
     except Exception as e:
