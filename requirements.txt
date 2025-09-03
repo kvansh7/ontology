@@ -3,8 +3,8 @@ pandas==2.2.2
 numpy==1.26.4
 pymongo==4.8.0
 werkzeug==3.0.3
-langchain==0.3.0
-langchain-google-genai==1.0.8
+langchain
+langchain-google-genai
 spacy==3.7.5
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 keybert==0.8.5
