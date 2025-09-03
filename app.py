@@ -92,7 +92,7 @@ if db is not None:
 def init_language_model():
     """Initialize language model"""
     try:
-        os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
+        os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
         model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
         return model
     except Exception as e:
